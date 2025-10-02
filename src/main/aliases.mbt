@@ -1,5 +1,5 @@
 ///|
-fnalias @html.(div, h1, p, button, text, input)
+fnalias @html.(div, h1, h2, h3, p, button, text, input)
 
 ///|
 fnalias @tea.none
