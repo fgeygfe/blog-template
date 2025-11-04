@@ -1,0 +1,9 @@
+{
+    "import" : [
+        "fgeygfe/blog-template/types",
+        {
+            "path": "Yoorkin/rabbit-tea",
+            "alias": "tea"
+        }
+    ]
+}

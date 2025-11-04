@@ -1,0 +1,10 @@
+{
+  "import": [
+    "Yoorkin/rabbit-tea/html",
+    "Yoorkin/rabbit-tea/dom",
+    "fgeygfe/blog-template/types",
+    "fgeygfe/blog-template/data",
+    "fgeygfe/blog-template/component",
+    "rami3l/cmark/cmark_html"
+  ]
+}

@@ -5,6 +5,8 @@
       "path": "Yoorkin/rabbit-tea",
       "alias": "tea"
     },
-    "Yoorkin/rabbit-tea/html"
+    "fgeygfe/blog-template/types",
+    "fgeygfe/blog-template/router",
+    "fgeygfe/blog-template/update"
   ]
 }

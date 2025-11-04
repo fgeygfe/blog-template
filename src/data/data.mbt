@@ -1,0 +1,58 @@
+///|
+/// 获取所有博客文章
+pub fn get_all_posts() -> Array[@types.Post] {
+  [
+    @types.Post::new(
+      1,
+      "👩‍💻",
+      "MoonBit 博客系统开发初探",
+      "Zhuanz2",
+      "2025-01-20",
+      "探索使用 MoonBit 和 rabbit-tea 框架构建现代化博客系统的最佳实践。",
+      "在这篇文章中，我们将深入探讨如何使用 MoonBit 语言和 rabbit-tea 框架来构建一个功能完整的博客系统...",
+      "MoonBit",
+      42,
+      "5 分钟",
+      ToPost1,
+    ),
+    @types.Post::new(
+      2,
+      "🦄",
+      "Rabbit-tea 框架深度解析",
+      "Yoorkin",
+      "2025-01-18",
+      "Rabbit-tea 是 MoonBit 生态中的前端框架，采用 TEA 架构模式，适合构建可维护的 Web 应用。",
+      "Rabbit-tea 框架基于 The Elm Architecture (TEA) 设计模式，提供了一种函数式的方式来构建用户界面...",
+      "前端",
+      38,
+      "8 分钟",
+      ToPost2,
+    ),
+    @types.Post::new(
+      3,
+      "🚀",
+      "WebAssembly 在现代 Web 开发中的应用",
+      "DevExpert",
+      "2025-01-15",
+      "WebAssembly 正在改变 Web 开发的游戏规则，让我们看看如何在项目中有效利用这项技术。",
+      "WebAssembly (WASM) 是一种新的编码方式，可以在现代的网络浏览器中运行...",
+      "WebAssembly",
+      56,
+      "12 分钟",
+      ToPost3,
+    ),
+    @types.Post::new(
+      4,
+      "🎨",
+      "函数式编程设计模式实战",
+      "FPMaster",
+      "2025-01-12",
+      "通过实际案例学习函数式编程的核心概念和设计模式，提升代码质量和可维护性。",
+      "函数式编程不仅仅是一种编程范式，更是一种思维方式...",
+      "编程",
+      34,
+      "10 分钟",
+      ToPost4,
+    ),
+  ]
+}

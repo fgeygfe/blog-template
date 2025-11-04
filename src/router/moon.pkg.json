@@ -1,0 +1,8 @@
+{
+  "import": [
+    "Yoorkin/rabbit-tea/html",
+    "fgeygfe/blog-template/types",
+    "fgeygfe/blog-template/views"
+  ]
+}
+
